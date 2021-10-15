@@ -1,8 +1,24 @@
 # numinix
-A project for Numinix. I added a couple of working links using Vue Router.
-I couldn't find the profile images so I took a few from pexels and used them dynamically so it wasn't just simply linked.
-I also took icons from Icons8.
 
-This Project was created with: Vue3 JavaScript CSS HTML
+## Project setup
+```
+npm install
+```
 
-This project is hosted on Netlify. Link: 
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
