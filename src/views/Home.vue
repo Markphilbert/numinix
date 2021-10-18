@@ -192,7 +192,7 @@ h2 {
   margin: 0 18px 0 -1px;
 }
 .bs img {
-  margin: 0 18px 0 -1px;
+  margin: -30px 18px 0 -1px;
 }
 .bs p:first-letter {
   display: block;
@@ -312,7 +312,7 @@ p {
   background: white;
   position: static;
   width: 363px;
-  height: 725px;
+  height: 757px;
   border-radius: 8px;
   flex: none;
   flex-grow: 0;
@@ -405,6 +405,12 @@ a:hover, .edit:hover, .view:hover {
   .sort button {
     width: 199px;
   }
+  .options {
+    width: 179px;
+  }
+  .options option {
+    width: 147px;
+  }
   .arrow {
   margin-left: 10px;
 }
@@ -422,16 +428,17 @@ a:hover, .edit:hover, .view:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 0;
   }
   .options {
     width: 179px;
-    margin: -20px 0 24px 46%;
+    margin: 4px 0 24px 46%;
   }
   .options option {
     width: 147px;
   }
   .sort button{
-  margin: 34px 0 24px 46%;
+  margin: 34px 0 0 46%;
   }
   .sort {
     width: 100%;
@@ -439,7 +446,7 @@ a:hover, .edit:hover, .view:hover {
   .card {
     width: 368px;
     height: 360px;
-    margin: -55px 0 16px 0;
+    margin: 0px auto 26px;
     position: relative;
   }
   .missing img {
@@ -471,6 +478,9 @@ a:hover, .edit:hover, .view:hover {
   .address img {
     margin: -29px 17px 0 0;
   }
+.bs img {
+  margin: 0 18px 0 -1px;
+}
   .username {
     margin: 0 0 22px 27px;
   }
@@ -479,6 +489,9 @@ a:hover, .edit:hover, .view:hover {
     color: #51C5FF;
     line-height: 18px;
     max-width: 25ch;
+  }
+  .email {
+    margin-bottom: 15px;
   }
   .website a, .email a, .username a {
   font-size: 1.3em;
@@ -495,10 +508,17 @@ a:hover, .edit:hover, .view:hover {
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 414px) {
+  .card {
+    margin: 0 26px 26px -12px;
+  }
+
+}
+@media only screen and (max-width: 413px) {
   .card {
     width: 300px;
     height: 400px;
+    margin: 0 auto 26px;
   }
   h2 {
     max-width: 10ch;
@@ -510,7 +530,7 @@ a:hover, .edit:hover, .view:hover {
     width: 260px;
   }
   .options {
-    margin: -20px 0 24px 33%;
+    margin: 4px 0 24px 33%;
   }
   .sort button{
   margin: 34px 0 24px 33%;
@@ -519,7 +539,7 @@ a:hover, .edit:hover, .view:hover {
     width: 80%;
   }
   .search img {
-    padding: 1.8em 0 1.9em 2.2em;
+    padding: 1.7em 0 2.2em 2.2em;
   }
 }
 </style>
