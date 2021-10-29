@@ -1,4 +1,4 @@
-# numinix
+# Numinix
 
 ## Project setup
 ```
