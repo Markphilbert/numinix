@@ -34,11 +34,13 @@ Link: https://numinix-project.netlify.app/
 
 <h3>Description</h3>
 
+This project features a search bar that navigates through user accounts as well as a dropdown menu that filters through customers arranging them in aphabetical order from both A-Z and vice versa.
+
+I included the use of vue router and created clickable links to the 'email', 'username', and 'website' for each 'customer'. I also implemented a small use of vue transitions for styling.
+
 This was made with an unsecure api. The project was launched on netlify using "https://randomuser.me/api/?results=10" as an api instead. Due to the new api missing some information, the project is missing a dynamic 'catchphrase', 'business', and 'business slogan'.
 
 The netlify site is being launched from a build of a very similar app using the aforementioned different api. The link to that github repository is "https://github.com/Markphilbert/numinix2". This repository shows only the code for the app while the numinix2 repository is just a build only being used to run to netlify.
-
-I included the use of vue router and created clickable links to the 'email', 'username', and 'website' for each 'customer'. I also implemented a small use of vue transitions for styling.
 
 <h3>How It's Made:</h3>
 
