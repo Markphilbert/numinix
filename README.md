@@ -27,7 +27,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 <img src="https://user-images.githubusercontent.com/84154978/139332270-eda80cef-d64f-4a0d-b0e9-b6a39f4cc91e.gif" >
 
-A Project built for Numinix for an interview of my skills.
+A Project built for Numinix used to interview my skills.
 
 This project is hosted on Netlify.
 Link: https://numinix-project.netlify.app/
