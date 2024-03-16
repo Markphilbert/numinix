@@ -55,5 +55,6 @@ This Project was created with:
 <h3>Other Projects</h3>
 <ul>
 <li><a href="https://github.com/Markphilbert/threeJS_Portfolio">ThreeJS Portfolio Site</a></li>
+<li><a href="https://github.com/Markphilbert/Maze_Solver">Maze Solver</a></li>
 <li><a href="https://github.com/Markphilbert/ShoesOverflow">ShoesOverflow</a></li>
 </ul>
